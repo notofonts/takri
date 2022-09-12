@@ -2,11 +2,10 @@
 
 @MA2 = [ uMatra-takr uuMatra-takr nukta-takr ya.blw ra.blw ];
 
-@MA3 = [ ha.pst  ];
+@MA3 = [ ha.pst ];
 
 # Prefix: Languagesystems
 languagesystem takr dflt;
-
 
 # Prefix: ref_gsub
 lookup HaPost {
@@ -17,7 +16,6 @@ lookup BelowRaYa {
 	sub virama-takr ya-takr by ya.blw;
 	sub virama-takr ra-takr by ra.blw;
 } BelowRaYa;
-
 
 # Prefix: ref_gpos
 lookup IMatraLig {
@@ -124,7 +122,6 @@ lookup AddWidthAAMatraAnusvara {
 	pos ya-takr' 110;	
 } AddWidthAAMatraAnusvara;
 
-
 feature akhn {
 lookup Conjuncts {
 	sub ta-takr virama-takr ra-takr by Tra;
@@ -150,6 +147,7 @@ lookup HaPostChained {
 	sub @bt @input1' lookup HaPost @input2' ;
 } HaPostChained;
 
+sub nga-takr aaMatra-takr' by aaMatra-takr.spacing;
 } pstf;
 
 feature abvs {
@@ -164,7 +162,6 @@ lookup VowelSubChain {
 	sub @input1' lookup IMatraAlt2 @input4' @input3' lookup NullMark ;
 	sub @input1' lookup IMatraAlt1 @input4' ;
 } VowelSubChain;
-
 } abvs;
 
 feature kern {
@@ -339,8 +336,6 @@ lookup TraUKern {
 
 	pos @input1' @input2' lookup ShiftU ;
 } TraUKern;
-
-
 } kern;
 
 feature dist {
@@ -351,3 +346,4 @@ lookup AAMatraWidth {
 	pos iiMatra-takr' 86 anusvara-takr;
 } AAMatraWidth;
 } dist;
+
