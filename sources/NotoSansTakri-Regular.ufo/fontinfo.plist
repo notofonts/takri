@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<integer>625</integer>
 	<key>copyright</key>
-	<string>Copyright 2020 Google Inc. All Rights Reserved.</string>
+	<string>Copyright 2022 The Noto Project Authors (https://github.com/notofonts/takri)</string>
 	<key>descender</key>
 	<integer>-188</integer>
 	<key>familyName</key>
@@ -15,7 +15,7 @@
 	<key>openTypeHeadCreated</key>
 	<string>2020/05/17 01:17:45</string>
 	<key>openTypeHheaAscender</key>
-	<integer>955</integer>
+	<integer>995</integer>
 	<key>openTypeHheaDescender</key>
 	<integer>-307</integer>
 	<key>openTypeHheaLineGap</key>
@@ -27,9 +27,9 @@
 	<key>openTypeNameDesignerURL</key>
 	<string>http://www.monotype.com/studio</string>
 	<key>openTypeNameLicense</key>
-	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.</string>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
 	<key>openTypeNameLicenseURL</key>
-	<string>http://scripts.sil.org/OFL</string>
+	<string>https://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturer</key>
 	<string>Monotype Imaging Inc.</string>
 	<key>openTypeNameManufacturerURL</key>
@@ -37,13 +37,14 @@
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 2.002</string>
+	<string>Version 2.003</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
 	</array>
 	<key>openTypeOS2Selection</key>
 	<array>
+		<integer>7</integer>
 		<integer>8</integer>
 	</array>
 	<key>openTypeOS2Type</key>
@@ -116,7 +117,7 @@
 	<key>versionMajor</key>
 	<integer>2</integer>
 	<key>versionMinor</key>
-	<integer>2</integer>
+	<integer>3</integer>
 	<key>xHeight</key>
 	<integer>575</integer>
 </dict>

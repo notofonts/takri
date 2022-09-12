@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>com.github.googlei18n.ufo2ft.useProductionNames</key>
-	<false/>
-	<key>com.schriftgestaltung.DisplayStrings</key>
-	<array>
-		<string>/aaMatra-takr.spacing</string>
-	</array>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<false/>
 	<key>com.schriftgestaltung.fontMasterID</key>
@@ -18,7 +12,7 @@
 		<string>NULL</string>
 		<string>CR</string>
 		<string>space</string>
-		<string>nbspace</string>
+		<string>uni00A0</string>
 		<string>dottedCircle</string>
 		<string>zerowidthjoiner</string>
 		<string>zerowidthnonjoiner</string>
@@ -120,7 +114,6 @@
 		<string>NULL</string>
 		<string>CR</string>
 		<string>space</string>
-		<string>nbspace</string>
 		<string>dottedCircle</string>
 		<string>zerowidthjoiner</string>
 		<string>zerowidthnonjoiner</string>
@@ -211,6 +204,7 @@
 		<string>NullMark</string>
 		<string>Tra</string>
 		<string>I_anusvara.alt</string>
+		<string>uni00A0</string>
 		<string>aaMatra-takr.spacing</string>
 	</array>
 	<key>public.openTypeCategories</key>
@@ -327,7 +321,7 @@
 		<string>base</string>
 		<key>na-takr</key>
 		<string>base</string>
-		<key>nbspace</key>
+		<key>uni00A0</key>
 		<string>base</string>
 		<key>nga-takr</key>
 		<string>base</string>
@@ -504,7 +498,7 @@
 		<string>matakr</string>
 		<key>na-takr</key>
 		<string>natakr</string>
-		<key>nbspace</key>
+		<key>uni00A0</key>
 		<string>uni00A0</string>
 		<key>nga-takr</key>
 		<string>ngatakr</string>

@@ -114,8 +114,6 @@
 	<string>ma-takr.glif</string>
 	<key>na-takr</key>
 	<string>na-takr.glif</string>
-	<key>nbspace</key>
-	<string>nbspace.glif</string>
 	<key>nga-takr</key>
 	<string>nga-takr.glif</string>
 	<key>nna-takr</key>
@@ -176,6 +174,8 @@
 	<string>u-takr.glif</string>
 	<key>uMatra-takr</key>
 	<string>uM_atra-takr.glif</string>
+	<key>uni00A0</key>
+	<string>uni00A_0.glif</string>
 	<key>uu-takr</key>
 	<string>uu-takr.glif</string>
 	<key>uuMatra-takr</key>
