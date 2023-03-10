@@ -147,6 +147,7 @@ lookup HaPostChained {
 	sub @bt @input1' lookup HaPost @input2' ;
 } HaPostChained;
 
+lookupflag MarkAttachmentType @MA1;
 sub nga-takr aaMatra-takr' by aaMatra-takr.spacing;
 } pstf;
 
