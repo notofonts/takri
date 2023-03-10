@@ -341,8 +341,9 @@ lookup TraUKern {
 
 feature dist {
 lookup AAMatraWidth {
-	lookupflag UseMarkFilteringSet [aaMatra-takr];
+	lookupflag UseMarkFilteringSet [aaMatra-takr anusvara-takr];
 	@input = [ka-takr kha-takr ga-takr gha-takr nga-takr ca-takr cha-takr ja-takr jha-takr nya-takr tta-takr ttha-takr dda-takr ddha-takr nna-takr ta-takr tha-takr da-takr dha-takr na-takr pa-takr pha-takr ba-takr bha-takr ma-takr ya-takr ra-takr la-takr va-takr sha-takr sa-takr ha-takr rra-takr archaicKha-takr Tra ];
+	pos @input' lookup AddWidthAAMatraAnusvara aaMatra-takr anusvara-takr;
 	pos @input' lookup AddWidthAAMatra aaMatra-takr;
 	pos iiMatra-takr' 86 anusvara-takr;
 } AAMatraWidth;
