@@ -5,6 +5,7 @@
 @MA3 = [ ha.pst ];
 
 # Prefix: Languagesystems
+languagesystem DFLT dflt;
 languagesystem takr dflt;
 
 # Prefix: ref_gsub
