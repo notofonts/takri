@@ -78,6 +78,7 @@
 		<string>virama-takr</string>
 		<string>nukta-takr</string>
 		<string>archaicKha-takr</string>
+		<string>abbreviation-takr</string>
 		<string>digitZero-takr</string>
 		<string>digitOne-takr</string>
 		<string>digitTwo-takr</string>
@@ -114,6 +115,7 @@
 		<string>NULL</string>
 		<string>CR</string>
 		<string>space</string>
+		<string>uni00A0</string>
 		<string>dottedCircle</string>
 		<string>zerowidthjoiner</string>
 		<string>zerowidthnonjoiner</string>
@@ -177,6 +179,7 @@
 		<string>virama-takr</string>
 		<string>nukta-takr</string>
 		<string>archaicKha-takr</string>
+		<string>abbreviation-takr</string>
 		<string>digitZero-takr</string>
 		<string>digitOne-takr</string>
 		<string>digitTwo-takr</string>
@@ -204,7 +207,6 @@
 		<string>NullMark</string>
 		<string>Tra</string>
 		<string>I_anusvara.alt</string>
-		<string>uni00A0</string>
 		<string>aaMatra-takr.spacing</string>
 	</array>
 	<key>public.openTypeCategories</key>
@@ -321,8 +323,6 @@
 		<string>base</string>
 		<key>na-takr</key>
 		<string>base</string>
-		<key>uni00A0</key>
-		<string>base</string>
 		<key>nga-takr</key>
 		<string>base</string>
 		<key>nna-takr</key>
@@ -383,6 +383,8 @@
 		<string>base</string>
 		<key>uMatra-takr</key>
 		<string>mark</string>
+		<key>uni00A0</key>
+		<string>base</string>
 		<key>uu-takr</key>
 		<string>base</string>
 		<key>uuMatra-takr</key>
@@ -498,8 +500,6 @@
 		<string>matakr</string>
 		<key>na-takr</key>
 		<string>natakr</string>
-		<key>uni00A0</key>
-		<string>uni00A0</string>
 		<key>nga-takr</key>
 		<string>ngatakr</string>
 		<key>nna-takr</key>
@@ -536,6 +536,8 @@
 		<string>utakr</string>
 		<key>uMatra-takr</key>
 		<string>uMatratakr</string>
+		<key>uni00A0</key>
+		<string>uni00A0</string>
 		<key>uu-takr</key>
 		<string>uutakr</string>
 		<key>uuMatra-takr</key>

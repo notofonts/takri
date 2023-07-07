@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abbreviation-takr" format="2">
+	<advance width="374"/>
+	<unicode hex="116B9"/>
+	<outline>
+		<contour>
+			<point x="188" y="236" type="curve" smooth="yes"/>
+			<point x="235" y="236"/>
+			<point x="274" y="275"/>
+			<point x="274" y="326" type="curve" smooth="yes"/>
+			<point x="274" y="376"/>
+			<point x="235" y="417"/>
+			<point x="188" y="417" type="curve" smooth="yes"/>
+			<point x="141" y="417"/>
+			<point x="100" y="376"/>
+			<point x="100" y="326" type="curve" smooth="yes"/>
+			<point x="100" y="275"/>
+			<point x="141" y="236"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-07-06 10:35:23 +0000</string>
+		</dict>
+	</lib>
+</glyph>

@@ -24,6 +24,8 @@
 	<string>aaM_atra-takr.glif</string>
 	<key>aaMatra-takr.spacing</key>
 	<string>aaM_atra-takr.spacing.glif</string>
+	<key>abbreviation-takr</key>
+	<string>abbreviation-takr.glif</string>
 	<key>ai-takr</key>
 	<string>ai-takr.glif</string>
 	<key>aiMatra-takr</key>

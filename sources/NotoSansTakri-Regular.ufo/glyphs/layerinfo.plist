@@ -116,8 +116,6 @@
 		<integer>0</integer>
 		<key>com.schriftgestaltung.layerOrderInGlyph.na-takr</key>
 		<integer>0</integer>
-		<key>com.schriftgestaltung.layerOrderInGlyph.uni00A0</key>
-		<integer>0</integer>
 		<key>com.schriftgestaltung.layerOrderInGlyph.nga-takr</key>
 		<integer>0</integer>
 		<key>com.schriftgestaltung.layerOrderInGlyph.nna-takr</key>
@@ -177,6 +175,8 @@
 		<key>com.schriftgestaltung.layerOrderInGlyph.u-takr</key>
 		<integer>0</integer>
 		<key>com.schriftgestaltung.layerOrderInGlyph.uMatra-takr</key>
+		<integer>0</integer>
+		<key>com.schriftgestaltung.layerOrderInGlyph.uni00A0</key>
 		<integer>0</integer>
 		<key>com.schriftgestaltung.layerOrderInGlyph.uu-takr</key>
 		<integer>0</integer>
