@@ -2,7 +2,6 @@
 <glyph name="digitZero-takr" format="2">
 	<advance width="327"/>
 	<unicode hex="116C0"/>
-	<unicode hex="116B9"/>
 	<outline>
 		<contour>
 			<point x="163" y="233" type="curve" smooth="yes"/>
