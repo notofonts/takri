@@ -213,6 +213,14 @@
   clear: both;
 }
 
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
     </style>
 </head>
 <body>
@@ -220,6 +228,9 @@
 		
 			<div class="nav-item" id="font-toggle">old</div>
 		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
 		
 	</div>
     <div id="content">
@@ -230,21 +241,27 @@
   
     <div class="box">
     <div class="box-title">Tables</div>
-     <script>var fontdiff = {"cmap": {"0x116B9": [null, "digitZerotakr"]}, "GSUB": {"table": {"LookupList": {"Lookup": {"9": {"LookupFlag": [0, 256]}, "10": {"LookupFlag": [0, 256]}}}, "ScriptList": {"ScriptRecord": {"0": {"ScriptTag": ["takr", "DFLT"]}, "1": {"ScriptTag": [null, "takr"], "Script": {"DefaultLangSys": {"ReqFeatureIndex": [null, 65535], "FeatureCount": [null, 4], "FeatureIndex": {"0": [null, 0], "1": [null, 1], "2": [null, 2], "3": [null, 3]}}, "LangSysCount": [null, 0]}}}, "ScriptCount": [1, 2]}}}, "GDEF": {"table": {"MarkGlyphSetsDef": {"Coverage": {"0": {"glyphs": {"0": ["aaMatratakr", "anusvaratakr"], "1": [null, "aaMatratakr"]}}}}}}, "name": {"3/3/1/1033": ["2.003;GOOG;NotoSansTakri-Regular", "2.004;GOOG;NotoSansTakri-Regular"], "5/3/1/1033": ["Version 2.003", "Version 2.004"]}, "glyf": {"glyphs": {"digitOnetakr": {"xMax": [516, null], "yMax": [585, null], "xMin": [80, null], "endPtsOfContours": {"0": [31, null], "1": [42, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "patakr": {"xMax": [534, null], "yMax": [640, null], "xMin": [30, null], "endPtsOfContours": {"0": [40, null]}, "numberOfContours": [1, null], "yMin": [-20, null]}, "eMatratakr": {"xMax": [182, null], "yMax": [769, null], "xMin": [-182, null], "endPtsOfContours": {"0": [3, null]}, "numberOfContours": [1, null], "yMin": [710, null]}, "I_anusvara": {"xMax": [710, null], "yMax": [880, null], "xMin": [80, null], "endPtsOfContours": {"0": [20, null], "1": [32, null]}, "numberOfContours": [2, null], "yMin": [-120, null]}, "shatakr": {"xMax": [624, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [50, null], "1": [62, null]}, "numberOfContours": [2, null], "yMin": [-42, null]}, "uni0964": {"xMax": [205, null], "yMax": [645, null], "xMin": [120, null], "endPtsOfContours": {"0": [3, null]}, "numberOfContours": [1, null], "yMin": [-20, null]}, "catakr": {"xMax": [674, null], "yMax": [625, null], "xMin": [15, null], "endPtsOfContours": {"0": [26, null], "1": [39, null], "2": [51, null]}, "numberOfContours": [3, null], "yMin": [-14, null]}, "batakr": {"xMax": [485, null], "yMax": [640, null], "xMin": [30, null], "endPtsOfContours": {"0": [41, null]}, "numberOfContours": [1, null], "yMin": [-20, null]}, "tthatakr": {"xMax": [475, null], "yMax": [637, null], "xMin": [40, null], "endPtsOfContours": {"0": [33, null], "1": [45, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "ddatakr": {"xMax": [421, null], "yMax": [637, null], "xMin": [40, null], "endPtsOfContours": {"0": [43, null], "1": [55, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "northIndicFractionThreeSixteenths": {"xMax": [583, null], "yMax": [622, null], "xMin": [40, null], "endPtsOfContours": {"0": [3, null], "1": [7, null], "2": [11, null]}, "numberOfContours": [3, null], "yMin": [18, null]}, "northIndicRupeeMark": {"xMax": [246, null], "yMax": [633, null], "xMin": [-157, null], "endPtsOfContours": {"0": [23, null]}, "numberOfContours": [1, null], "yMin": [-188, null]}, "rratakr": {"xMax": [490, null], "yMax": [637, null], "xMin": [30, null], "endPtsOfContours": {"0": [70, null]}, "numberOfContours": [1, null], "yMin": [-155, null]}, "digitEighttakr": {"xMax": [414, null], "yMax": [575, null], "xMin": [40, null], "endPtsOfContours": {"0": [44, null]}, "numberOfContours": [1, null], "yMin": [-12, null]}, "ratakr": {"xMax": [360, null], "yMax": [639, null], "xMin": [60, null], "endPtsOfContours": {"0": [16, null], "1": [28, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "thatakr": {"xMax": [550, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [22, null], "1": [31, null], "2": [42, null]}, "numberOfContours": [3, null], "yMin": [0, null]}, "digitSeventakr": {"xMax": [318, null], "yMax": [575, null], "xMin": [30, null], "endPtsOfContours": {"0": [16, null], "1": [29, null]}, "numberOfContours": [2, null], "yMin": [0, null]}, "nnatakr": {"xMax": [641, null], "yMax": [637, null], "xMin": [40, null], "endPtsOfContours": {"0": [60, null], "1": [71, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "aatakr": {"components": {"0": {"flags": [516, null], "glyphName": ["atakr", null], "x": [0, null], "y": [0, null]}, "1": {"flags": [4, null], "glyphName": ["aaMatratakr", null], "x": [632, null], "y": [0, null]}}, "xMin": [30, null], "xMax": [665, null], "numberOfContours": [-1, null], "yMin": [0, null], "yMax": [905, null]}, "satakr": {"xMax": [571, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [44, null], "1": [56, null]}, "numberOfContours": [2, null], "yMin": [-20, null]}, "vatakr": {"xMax": [464, null], "yMax": [635, null], "xMin": [30, null], "endPtsOfContours": {"0": [46, null]}, "numberOfContours": [1, null], "yMin": [-20, null]}, "etakr": {"xMax": [429, null], "yMax": [637, null], "xMin": [30, null], "endPtsOfContours": {"0": [42, null]}, "numberOfContours": [1, null], "yMin": [-14, null]}, "gatakr": {"xMax": [535, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [25, null], "1": [37, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "otakr": {"components": {"0": {"flags": [516, null], "glyphName": ["atakr", null], "x": [0, null], "y": [0, null]}, "1": {"flags": [4, null], "glyphName": ["oMatratakr", null], "x": [350, null], "y": [0, null]}}, "xMin": [30, null], "xMax": [663, null], "numberOfContours": [-1, null], "yMin": [0, null], "yMax": [810, null]}, "uuMatratakr": {"xMax": [229, null], "yMax": [-74, null], "xMin": [-210, null], "endPtsOfContours": {"0": [14, null], "1": [29, null]}, "numberOfContours": [2, null], "yMin": [-291, null]}, "iMatratakr": {"xMax": [536, null], "yMax": [880, null], "xMin": [80, null], "endPtsOfContours": {"0": [20, null]}, "numberOfContours": [1, null], "yMin": [-120, null]}, "khatakr": {"xMax": [534, null], "yMax": [640, null], "xMin": [30, null], "endPtsOfContours": {"0": [34, null], "1": [45, null]}, "numberOfContours": [2, null], "yMin": [-20, null]}, "I_anusvara.alt": {"xMax": [710, null], "yMax": [880, null], "xMin": [80, null], "endPtsOfContours": {"0": [20, null], "1": [32, null]}, "numberOfContours": [2, null], "yMin": [-120, null]}, "viramatakr": {"xMax": [0, null], "yMax": [930, null], "xMin": [-324, null], "endPtsOfContours": {"0": [3, null]}, "numberOfContours": [1, null], "yMin": [665, null]}, "ra.blw": {"xMax": [16, null], "yMax": [-110, null], "xMin": [-330, null], "endPtsOfContours": {"0": [23, null]}, "numberOfContours": [1, null], "yMin": [-304, null]}, "autakr": {"components": {"0": {"flags": [516, null], "glyphName": ["atakr", null], "x": [0, null], "y": [0, null]}, "1": {"flags": [4, null], "glyphName": ["auMatratakr", null], "x": [350, null], "y": [0, null]}}, "xMin": [30, null], "xMax": [663, null], "numberOfContours": [-1, null], "yMin": [0, null], "yMax": [950, null]}, "digitSixtakr": {"xMax": [456, null], "yMax": [585, null], "xMin": [5, null], "endPtsOfContours": {"0": [34, null], "1": [46, null]}, "numberOfContours": [2, null], "yMin": [0, null]}, "datakr": {"xMax": [689, null], "yMax": [625, null], "xMin": [29, null], "endPtsOfContours": {"0": [39, null], "1": [51, null]}, "numberOfContours": [2, null], "yMin": [-14, null]}, "digitZerotakr": {"xMax": [247, null], "yMax": [400, null], "xMin": [80, null], "endPtsOfContours": {"0": [11, null]}, "numberOfContours": [1, null], "yMin": [233, null]}, "phatakr": {"xMax": [436, null], "yMax": [625, null], "xMin": [40, null], "endPtsOfContours": {"0": [41, null], "1": [53, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "northIndicFractionOneEighth": {"xMax": [583, null], "yMax": [622, null], "xMin": [40, null], "endPtsOfContours": {"0": [3, null], "1": [7, null]}, "numberOfContours": [2, null], "yMin": [215, null]}, "itakr": {"xMax": [478, null], "yMax": [824, null], "xMin": [40, null], "endPtsOfContours": {"0": [30, null], "1": [42, null]}, "numberOfContours": [2, null], "yMin": [-10, null]}, "utakr": {"xMax": [523, null], "yMax": [825, null], "xMin": [40, null], "endPtsOfContours": {"0": [52, null]}, "numberOfContours": [1, null], "yMin": [-12, null]}, "northIndicFractionOneHalf": {"xMax": [359, null], "yMax": [622, null], "xMin": [78, null], "endPtsOfContours": {"0": [3, null], "1": [7, null]}, "numberOfContours": [2, null], "yMin": [0, null]}, "digitFivetakr": {"xMax": [451, null], "yMax": [575, null], "xMin": [40, null], "endPtsOfContours": {"0": [21, null]}, "numberOfContours": [1, null], "yMin": [0, null]}, ".notdef": {"xMax": [505, null], "yMax": [714, null], "xMin": [94, null], "endPtsOfContours": {"0": [3, null], "1": [7, null]}, "numberOfContours": [2, null], "yMin": [0, null]}, "iiMatratakr": {"xMax": [256, null], "yMax": [880, null], "xMin": [-200, null], "endPtsOfContours": {"0": [20, null]}, "numberOfContours": [1, null], "yMin": [-120, null]}, "uni25CC": {"xMax": [546, null], "yMax": [540, null], "xMin": [48, null], "endPtsOfContours": {"0": [11, null], "1": [23, null], "2": [35, null], "3": [47, null], "4": [59, null], "5": [71, null], "6": [83, null], "7": [95, null], "8": [107, null], "9": [119, null], "10": [131, null], "11": [143, null], "12": [155, null], "13": [167, null], "14": [179, null], "15": [191, null]}, "numberOfContours": [16, null], "yMin": [42, null]}, "nyatakr": {"xMax": [712, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [33, null], "1": [45, null]}, "numberOfContours": [2, null], "yMin": [0, null]}, "uni0965": {"xMax": [365, null], "yMax": [645, null], "xMin": [120, null], "endPtsOfContours": {"0": [3, null], "1": [7, null]}, "numberOfContours": [2, null], "yMin": [-20, null]}, "atakr": {"xMax": [663, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [60, null]}, "numberOfContours": [1, null], "yMin": [0, null]}, "chatakr": {"xMax": [613, null], "yMax": [637, null], "xMin": [30, null], "endPtsOfContours": {"0": [43, null], "1": [55, null], "2": [68, null]}, "numberOfContours": [3, null], "yMin": [-12, null]}, "ha.pst": {"xMax": [161, null], "yMax": [491, null], "xMin": [-30, null], "endPtsOfContours": {"0": [17, null]}, "numberOfContours": [1, null], "yMin": [100, null]}, "natakr": {"xMax": [410, null], "yMax": [625, null], "xMin": [10, null], "endPtsOfContours": {"0": [30, null]}, "numberOfContours": [1, null], "yMin": [0, null]}, "nuktatakr": {"xMax": [65, null], "yMax": [-80, null], "xMin": [-65, null], "endPtsOfContours": {"0": [11, null]}, "numberOfContours": [1, null], "yMin": [-210, null]}, "northIndicFractionOneSixteenth": {"xMax": [583, null], "yMax": [622, null], "xMin": [40, null], "endPtsOfContours": {"0": [3, null]}, "numberOfContours": [1, null], "yMin": [412, null]}, "ngatakr": {"components": {"0": {"flags": [4, null], "glyphName": ["tatakr", null], "x": [0, null], "y": [0, null]}, "1": {"flags": [4, null], "glyphName": ["anusvaratakr", null], "x": [479, null], "y": [-190, null]}}, "xMin": [40, null], "xMax": [544, null], "numberOfContours": [-1, null], "yMin": [-12, null], "yMax": [637, null]}, "iitakr": {"xMax": [478, null], "yMax": [824, null], "xMin": [40, null], "endPtsOfContours": {"0": [30, null], "1": [42, null], "2": [54, null]}, "numberOfContours": [3, null], "yMin": [-10, null]}, "northIndicQuantityMark": {"xMax": [337, null], "yMax": [633, null], "xMin": [-157, null], "endPtsOfContours": {"0": [31, null]}, "numberOfContours": [1, null], "yMin": [-240, null]}, "matakr": {"xMax": [619, null], "yMax": [640, null], "xMin": [5, null], "endPtsOfContours": {"0": [39, null], "1": [51, null]}, "numberOfContours": [2, null], "yMin": [-20, null]}, "dhatakr": {"xMax": [562, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [23, null], "1": [40, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "visargatakr": {"xMax": [160, null], "yMax": [520, null], "xMin": [30, null], "endPtsOfContours": {"0": [11, null], "1": [23, null]}, "numberOfContours": [2, null], "yMin": [70, null]}, "ghatakr": {"xMax": [743, null], "yMax": [640, null], "xMin": [30, null], "endPtsOfContours": {"0": [82, null]}, "numberOfContours": [1, null], "yMin": [-20, null]}, "digitFourtakr": {"xMax": [465, null], "yMax": [575, null], "xMin": [60, null], "endPtsOfContours": {"0": [29, null], "1": [41, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "tatakr": {"xMax": [391, null], "yMax": [637, null], "xMin": [40, null], "endPtsOfContours": {"0": [41, null]}, "numberOfContours": [1, null], "yMin": [-12, null]}, "digitThreetakr": {"xMax": [428, null], "yMax": [585, null], "xMin": [30, null], "endPtsOfContours": {"0": [53, null], "1": [65, null]}, "numberOfContours": [2, null], "yMin": [-106, null]}, "hatakr": {"xMax": [484, null], "yMax": [625, null], "xMin": [10, null], "endPtsOfContours": {"0": [40, null]}, "numberOfContours": [1, null], "yMin": [-12, null]}, "katakr": {"xMax": [683, null], "yMax": [639, null], "xMin": [40, null], "endPtsOfContours": {"0": [51, null], "1": [63, null], "2": [74, null]}, "numberOfContours": [3, null], "yMin": [-12, null]}, "uMatratakr": {"xMax": [229, null], "yMax": [-74, null], "xMin": [-210, null], "endPtsOfContours": {"0": [14, null]}, "numberOfContours": [1, null], "yMin": [-181, null]}, "anusvaratakr": {"xMax": [65, null], "yMax": [814, null], "xMin": [-65, null], "endPtsOfContours": {"0": [11, null]}, "numberOfContours": [1, null], "yMin": [684, null]}, "aiMatratakr": {"xMax": [182, null], "yMax": [874, null], "xMin": [-182, null], "endPtsOfContours": {"0": [3, null], "1": [7, null]}, "numberOfContours": [2, null], "yMin": [710, null]}, "bhatakr": {"xMax": [451, null], "yMax": [637, null], "xMin": [30, null], "endPtsOfContours": {"0": [50, null], "1": [61, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "auMatratakr": {"xMax": [240, null], "yMax": [950, null], "xMin": [-236, null], "endPtsOfContours": {"0": [28, null], "1": [57, null]}, "numberOfContours": [2, null], "yMin": [684, null]}, "ddhatakr": {"xMax": [687, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [45, null], "1": [57, null], "2": [69, null]}, "numberOfContours": [3, null], "yMin": [-14, null]}, "aaMatratakr.spacing": {"xMax": [233, null], "yMax": [905, null], "xMin": [37, null], "endPtsOfContours": {"0": [3, null]}, "numberOfContours": [1, null], "yMin": [660, null]}, "jatakr": {"xMax": [546, null], "yMax": [637, null], "xMin": [40, null], "endPtsOfContours": {"0": [59, null]}, "numberOfContours": [1, null], "yMin": [-12, null]}, "northIndicFractionThreeQuarters": {"xMax": [559, null], "yMax": [622, null], "xMin": [78, null], "endPtsOfContours": {"0": [3, null], "1": [7, null], "2": [11, null]}, "numberOfContours": [3, null], "yMin": [0, null]}, "oMatratakr": {"xMax": [240, null], "yMax": [810, null], "xMin": [-236, null], "endPtsOfContours": {"0": [28, null]}, "numberOfContours": [1, null], "yMin": [684, null]}, "yatakr": {"xMax": [550, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [21, null], "1": [37, null]}, "numberOfContours": [2, null], "yMin": [0, null]}, "aitakr": {"components": {"0": {"flags": [516, null], "glyphName": ["etakr", null], "x": [0, null], "y": [0, null]}, "1": {"flags": [4, null], "glyphName": ["eMatratakr", null], "x": [220, null], "y": [0, null]}}, "xMin": [30, null], "xMax": [429, null], "numberOfContours": [-1, null], "yMin": [-14, null], "yMax": [769, null]}, "northIndicPlaceholderMark": {"xMax": [499, null], "yMax": [623, null], "xMin": [57, null], "endPtsOfContours": {"0": [18, null], "1": [30, null]}, "numberOfContours": [2, null], "yMin": [86, null]}, "iMatratakr.alt": {"xMax": [536, null], "yMax": [880, null], "xMin": [80, null], "endPtsOfContours": {"0": [20, null]}, "numberOfContours": [1, null], "yMin": [-120, null]}, "ttatakr": {"xMax": [529, null], "yMax": [625, null], "xMin": [30, null], "endPtsOfContours": {"0": [28, null]}, "numberOfContours": [1, null], "yMin": [-12, null]}, "northIndicQuarterMark": {"xMax": [393, null], "yMax": [473, null], "xMin": [67, null], "endPtsOfContours": {"0": [14, null], "1": [26, null]}, "numberOfContours": [2, null], "yMin": [167, null]}, "ya.blw": {"xMax": [61, null], "yMax": [-48, null], "xMin": [-266, null], "endPtsOfContours": {"0": [19, null]}, "numberOfContours": [1, null], "yMin": [-298, null]}, "northIndicFractionOneQuarter": {"xMax": [159, null], "yMax": [622, null], "xMin": [78, null], "endPtsOfContours": {"0": [3, null]}, "numberOfContours": [1, null], "yMin": [0, null]}, "jhatakr": {"xMax": [494, null], "yMax": [635, null], "xMin": [20, null], "endPtsOfContours": {"0": [40, null]}, "numberOfContours": [1, null], "yMin": [-12, null]}, "digitNinetakr": {"xMax": [433, null], "yMax": [587, null], "xMin": [60, null], "endPtsOfContours": {"0": [28, null], "1": [40, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "digitTwotakr": {"xMax": [501, null], "yMax": [585, null], "xMin": [5, null], "endPtsOfContours": {"0": [42, null]}, "numberOfContours": [1, null], "yMin": [-12, null]}, "Tra": {"xMax": [466, null], "yMax": [637, null], "xMin": [30, null], "endPtsOfContours": {"0": [51, null]}, "numberOfContours": [1, null], "yMin": [-208, null]}, "archaicKhatakr": {"xMax": [665, null], "yMax": [625, null], "xMin": [20, null], "endPtsOfContours": {"0": [19, null], "1": [29, null]}, "numberOfContours": [2, null], "yMin": [0, null]}, "aaMatratakr": {"xMax": [33, null], "yMax": [905, null], "xMin": [-163, null], "endPtsOfContours": {"0": [3, null]}, "numberOfContours": [1, null], "yMin": [660, null]}, "uutakr": {"xMax": [523, null], "yMax": [805, null], "xMin": [17, null], "endPtsOfContours": {"0": [68, null], "1": [80, null]}, "numberOfContours": [2, null], "yMin": [-12, null]}, "latakr": {"xMax": [687, null], "yMax": [625, null], "xMin": [40, null], "endPtsOfContours": {"0": [3, null], "1": [50, null]}, "numberOfContours": [2, null], "yMin": [-17, null]}}}, "head": {"modified": [3745845477, 3770209175], "checkSumAdjustment": [1410500904, 1483969376], "fontRevision": [2.0030059814453125, 2.003997802734375]}, "GPOS": {"table": {"LookupList": {"Lookup": {"29": {"SubTableCount": [2, 3], "SubTable": {"0": {"PosLookupRecord": {"0": {"LookupListIndex": [3, 5]}}, "LookAheadGlyphCount": [1, 2], "LookAheadCoverage": {"1": {"glyphs": {"0": [null, "anusvaratakr"]}}}}, "1": {"InputCoverage": {"0": {"glyphs": {"0": ["iiMatratakr", "katakr"], "1": [null, "khatakr"], "2": [null, "gatakr"], "3": [null, "ghatakr"], "4": [null, "ngatakr"], "5": [null, "catakr"], "6": [null, "chatakr"], "7": [null, "jatakr"], "8": [null, "jhatakr"], "9": [null, "nyatakr"], "10": [null, "ttatakr"], "11": [null, "tthatakr"], "12": [null, "ddatakr"], "13": [null, "ddhatakr"], "14": [null, "nnatakr"], "15": [null, "tatakr"], "16": [null, "thatakr"], "17": [null, "datakr"], "18": [null, "dhatakr"], "19": [null, "natakr"], "20": [null, "patakr"], "21": [null, "phatakr"], "22": [null, "batakr"], "23": [null, "bhatakr"], "24": [null, "matakr"], "25": [null, "yatakr"], "26": [null, "ratakr"], "27": [null, "latakr"], "28": [null, "vatakr"], "29": [null, "shatakr"], "30": [null, "satakr"], "31": [null, "hatakr"], "32": [null, "rratakr"], "33": [null, "archaicKhatakr"], "34": [null, "Tra"]}}}, "PosLookupRecord": {"0": {"LookupListIndex": [30, 3]}}, "LookAheadCoverage": {"0": {"glyphs": {"0": ["anusvaratakr", "aaMatratakr"]}}}}, "2": {"Format": [null, 3], "BacktrackGlyphCount": [null, 0], "InputGlyphCount": [null, 1], "InputCoverage": {"0": {"glyphs": {"0": [null, "iiMatratakr"]}}}, "LookAheadGlyphCount": [null, 1], "LookAheadCoverage": {"0": {"glyphs": {"0": [null, "anusvaratakr"]}}}, "PosCount": [null, 1], "PosLookupRecord": {"0": {"SequenceIndex": [null, 0], "LookupListIndex": [null, 30]}}}}}}}, "ScriptList": {"ScriptRecord": {"0": {"ScriptTag": ["takr", "DFLT"]}, "1": {"ScriptTag": [null, "takr"], "Script": {"DefaultLangSys": {"ReqFeatureIndex": [null, 65535], "FeatureCount": [null, 5], "FeatureIndex": {"0": [null, 0], "1": [null, 1], "2": [null, 2], "3": [null, 3], "4": [null, 4]}}, "LangSysCount": [null, 0]}}}, "ScriptCount": [1, 2]}}}};</script><div id="difftable"></div>
+     <script>var fontdiff = {"cmap": {"0x116B9": ["digitZerotakr", "abbreviationtakr"]}, "maxp": {"numGlyphs": [96, 97]}, "hhea": {"numberOfHMetrics": [96, 97]}, "post": {"extraNames": {"2": ["uni25CC", "uni00A0"], "3": ["uni200D", "uni25CC"], "4": ["uni200C", "uni200D"], "5": ["uni0964", "uni200C"], "6": ["uni0965", "uni0964"], "7": ["atakr", "uni0965"], "8": ["aatakr", "atakr"], "9": ["itakr", "aatakr"], "10": ["iitakr", "itakr"], "11": ["utakr", "iitakr"], "12": ["uutakr", "utakr"], "13": ["etakr", "uutakr"], "14": ["aitakr", "etakr"], "15": ["otakr", "aitakr"], "16": ["autakr", "otakr"], "17": ["katakr", "autakr"], "18": ["khatakr", "katakr"], "19": ["gatakr", "khatakr"], "20": ["ghatakr", "gatakr"], "21": ["ngatakr", "ghatakr"], "22": ["catakr", "ngatakr"], "23": ["chatakr", "catakr"], "24": ["jatakr", "chatakr"], "25": ["jhatakr", "jatakr"], "26": ["nyatakr", "jhatakr"], "27": ["ttatakr", "nyatakr"], "28": ["tthatakr", "ttatakr"], "29": ["ddatakr", "tthatakr"], "30": ["ddhatakr", "ddatakr"], "31": ["nnatakr", "ddhatakr"], "32": ["tatakr", "nnatakr"], "33": ["thatakr", "tatakr"], "34": ["datakr", "thatakr"], "35": ["dhatakr", "datakr"], "36": ["natakr", "dhatakr"], "37": ["patakr", "natakr"], "38": ["phatakr", "patakr"], "39": ["batakr", "phatakr"], "40": ["bhatakr", "batakr"], "41": ["matakr", "bhatakr"], "42": ["yatakr", "matakr"], "43": ["ratakr", "yatakr"], "44": ["latakr", "ratakr"], "45": ["vatakr", "latakr"], "46": ["shatakr", "vatakr"], "47": ["satakr", "shatakr"], "48": ["hatakr", "satakr"], "49": ["rratakr", "hatakr"], "50": ["anusvaratakr", "rratakr"], "51": ["visargatakr", "anusvaratakr"], "52": ["aaMatratakr", "visargatakr"], "53": ["iMatratakr", "aaMatratakr"], "54": ["iMatratakr.alt", "iMatratakr"], "55": ["iiMatratakr", "iMatratakr.alt"], "56": ["uMatratakr", "iiMatratakr"], "57": ["uuMatratakr", "uMatratakr"], "58": ["eMatratakr", "uuMatratakr"], "59": ["aiMatratakr", "eMatratakr"], "60": ["oMatratakr", "aiMatratakr"], "61": ["auMatratakr", "oMatratakr"], "62": ["viramatakr", "auMatratakr"], "63": ["nuktatakr", "viramatakr"], "64": ["archaicKhatakr", "nuktatakr"], "65": ["digitZerotakr", "archaicKhatakr"], "66": ["digitOnetakr", "abbreviationtakr"], "67": ["digitTwotakr", "digitZerotakr"], "68": ["digitThreetakr", "digitOnetakr"], "69": ["digitFourtakr", "digitTwotakr"], "70": ["digitFivetakr", "digitThreetakr"], "71": ["digitSixtakr", "digitFourtakr"], "72": ["digitSeventakr", "digitFivetakr"], "73": ["digitEighttakr", "digitSixtakr"], "74": ["digitNinetakr", "digitSeventakr"], "75": ["ya.blw", "digitEighttakr"], "76": ["ra.blw", "digitNinetakr"], "77": ["ha.pst", "ya.blw"], "78": ["northIndicFractionOneQuarter", "ra.blw"], "79": ["northIndicFractionOneHalf", "ha.pst"], "80": ["northIndicFractionThreeQuarters", "northIndicFractionOneQuarter"], "81": ["northIndicFractionOneSixteenth", "northIndicFractionOneHalf"], "82": ["northIndicFractionOneEighth", "northIndicFractionThreeQuarters"], "83": ["northIndicFractionThreeSixteenths", "northIndicFractionOneSixteenth"], "84": ["northIndicQuarterMark", "northIndicFractionOneEighth"], "85": ["northIndicPlaceholderMark", "northIndicFractionThreeSixteenths"], "86": ["northIndicRupeeMark", "northIndicQuarterMark"], "87": ["northIndicQuantityMark", "northIndicPlaceholderMark"], "88": ["I_anusvara", "northIndicRupeeMark"], "89": ["NullMark", "northIndicQuantityMark"], "90": ["Tra", "I_anusvara"], "91": ["I_anusvara.alt", "NullMark"], "92": ["uni00A0", "Tra"], "93": ["aaMatratakr.spacing", "I_anusvara.alt"], "94": [null, "aaMatratakr.spacing"]}}, "head": {"modified": [3770223048, 3778573294], "fontRevision": [2.003997802734375, 2.0050048828125], "checkSumAdjustment": [1483941630, 998135611]}, "glyf": {"glyphOrder": {"4": ["uni25CC", "uni00A0"], "5": ["uni200D", "uni25CC"], "6": ["uni200C", "uni200D"], "7": ["uni0964", "uni200C"], "8": ["uni0965", "uni0964"], "9": ["atakr", "uni0965"], "10": ["aatakr", "atakr"], "11": ["itakr", "aatakr"], "12": ["iitakr", "itakr"], "13": ["utakr", "iitakr"], "14": ["uutakr", "utakr"], "15": ["etakr", "uutakr"], "16": ["aitakr", "etakr"], "17": ["otakr", "aitakr"], "18": ["autakr", "otakr"], "19": ["katakr", "autakr"], "20": ["khatakr", "katakr"], "21": ["gatakr", "khatakr"], "22": ["ghatakr", "gatakr"], "23": ["ngatakr", "ghatakr"], "24": ["catakr", "ngatakr"], "25": ["chatakr", "catakr"], "26": ["jatakr", "chatakr"], "27": ["jhatakr", "jatakr"], "28": ["nyatakr", "jhatakr"], "29": ["ttatakr", "nyatakr"], "30": ["tthatakr", "ttatakr"], "31": ["ddatakr", "tthatakr"], "32": ["ddhatakr", "ddatakr"], "33": ["nnatakr", "ddhatakr"], "34": ["tatakr", "nnatakr"], "35": ["thatakr", "tatakr"], "36": ["datakr", "thatakr"], "37": ["dhatakr", "datakr"], "38": ["natakr", "dhatakr"], "39": ["patakr", "natakr"], "40": ["phatakr", "patakr"], "41": ["batakr", "phatakr"], "42": ["bhatakr", "batakr"], "43": ["matakr", "bhatakr"], "44": ["yatakr", "matakr"], "45": ["ratakr", "yatakr"], "46": ["latakr", "ratakr"], "47": ["vatakr", "latakr"], "48": ["shatakr", "vatakr"], "49": ["satakr", "shatakr"], "50": ["hatakr", "satakr"], "51": ["rratakr", "hatakr"], "52": ["anusvaratakr", "rratakr"], "53": ["visargatakr", "anusvaratakr"], "54": ["aaMatratakr", "visargatakr"], "55": ["iMatratakr", "aaMatratakr"], "56": ["iMatratakr.alt", "iMatratakr"], "57": ["iiMatratakr", "iMatratakr.alt"], "58": ["uMatratakr", "iiMatratakr"], "59": ["uuMatratakr", "uMatratakr"], "60": ["eMatratakr", "uuMatratakr"], "61": ["aiMatratakr", "eMatratakr"], "62": ["oMatratakr", "aiMatratakr"], "63": ["auMatratakr", "oMatratakr"], "64": ["viramatakr", "auMatratakr"], "65": ["nuktatakr", "viramatakr"], "66": ["archaicKhatakr", "nuktatakr"], "67": ["digitZerotakr", "archaicKhatakr"], "68": ["digitOnetakr", "abbreviationtakr"], "69": ["digitTwotakr", "digitZerotakr"], "70": ["digitThreetakr", "digitOnetakr"], "71": ["digitFourtakr", "digitTwotakr"], "72": ["digitFivetakr", "digitThreetakr"], "73": ["digitSixtakr", "digitFourtakr"], "74": ["digitSeventakr", "digitFivetakr"], "75": ["digitEighttakr", "digitSixtakr"], "76": ["digitNinetakr", "digitSeventakr"], "77": ["ya.blw", "digitEighttakr"], "78": ["ra.blw", "digitNinetakr"], "79": ["ha.pst", "ya.blw"], "80": ["northIndicFractionOneQuarter", "ra.blw"], "81": ["northIndicFractionOneHalf", "ha.pst"], "82": ["northIndicFractionThreeQuarters", "northIndicFractionOneQuarter"], "83": ["northIndicFractionOneSixteenth", "northIndicFractionOneHalf"], "84": ["northIndicFractionOneEighth", "northIndicFractionThreeQuarters"], "85": ["northIndicFractionThreeSixteenths", "northIndicFractionOneSixteenth"], "86": ["northIndicQuarterMark", "northIndicFractionOneEighth"], "87": ["northIndicPlaceholderMark", "northIndicFractionThreeSixteenths"], "88": ["northIndicRupeeMark", "northIndicQuarterMark"], "89": ["northIndicQuantityMark", "northIndicPlaceholderMark"], "90": ["I_anusvara", "northIndicRupeeMark"], "91": ["NullMark", "northIndicQuantityMark"], "92": ["Tra", "I_anusvara"], "93": ["I_anusvara.alt", "NullMark"], "94": ["uni00A0", "Tra"], "95": ["aaMatratakr.spacing", "I_anusvara.alt"], "96": [null, "aaMatratakr.spacing"]}}, "name": {"5/3/1/1033": ["Version 2.004", "Version 2.005"], "3/3/1/1033": ["2.004;GOOG;NotoSansTakri-Regular", "2.005;GOOG;NotoSansTakri-Regular"]}, "OS/2": {"xAvgCharWidth": [519, 517]}, "hmtx": {"metrics": {"abbreviationtakr": {"0": [null, 374], "1": [null, 100]}}}};</script><div id="difftable"></div>
     </div>
     
     
+    
+    
+    
+    
+    
       <div class="box">
-        <div class="box-title">New encoded glyphs</div>
+        <div class="box-title">Modified encoded Glyphs</div>
         <div class="box-text old-wght-400" style="font-size: 32pt">
           
             <div class="cell">
-              <div class="cell-word">
+              <div class="cell-word" dir="">
     <div class="tooltip">
         𑚹<br>
         <span class="tooltiptext">
             name: TAKRI ABBREVIATION SIGN<br>
-            unicode: U+116B9
+            unicode: U+116B9<br>
+            changed pixels: 4.15%
         </span>
     </div>
 </div>
@@ -252,11 +269,6 @@
           
           </div>
       </div>
-    
-    
-    
-    
-    
     
 
     
@@ -316,6 +328,82 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
 	function render(node, toplevel) {
 		var wrapper = $("<div> </div>");
 		if (!node) { return wrapper }
@@ -345,9 +433,8 @@
 	}
 	$(function() {
 		$("#difftable").append(render(fontdiff, true).children())
-		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+		$("#difftable .node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
 	});
-    
 
 function wordBreaks() {
   words = document.getElementsByClassName("cell-word")
